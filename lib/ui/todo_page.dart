@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:test/ui/todo_view_model.dart';
 
-class DriftPage extends ConsumerWidget {
-  DriftPage({super.key});
+class TodoPage extends ConsumerWidget {
+  TodoPage({super.key});
 
   final _formKey = GlobalKey<FormState>();
   final _titleController = TextEditingController();
